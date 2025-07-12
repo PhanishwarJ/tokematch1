@@ -1,0 +1,51 @@
+Token Tinder DApp DocumToken Tinder DApp Documentation
+
+Token Tinder is a Solana-based gamified token discovery application that lets users swipe through tokens, add them to a watchlist, skip irrelevant ones
+
+It incorporates a retro UI with visual effects and sound feedback to create a fun, Tinder-style interface for crypto users.
+
+Tech Stack
+
+Tool
+
+Usage
+
+React + Tailwind CSS
+
+UI layout and retro design
+
+@solana/wallet-adapter
+
+Phantom/Backpack wallet connection
+
+@jup-ag/api
+
+Jupiter Token API & Quote API for price info
+
+react-hot-toast
+
+Feedback toasts (e.g., "Token added/skipped")
+
+localStorage
+
+Persisting user’s watchlist and skipped tokens
+
+LLaMA 3 API (ngrok)
+
+Generating token descriptions from metadata
+
+Jupiter Unified Wallet Kit
+
+Unified wallet connection, quoting, and routing
+
+How Integrations Were Used
+
+🔗 Solana Wallet Adapter
+
+Used in App.jsx to enable wallet login via WalletMultiButton and later accessed for signed transactions in prediction or minting flows.
+
+Final Thoughts
+
+Token Tinder merges playful UX with real DeFi utility. It helps users discover and engage with new tokens while encouraging participation
+
+
